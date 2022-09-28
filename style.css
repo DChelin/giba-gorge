@@ -1,0 +1,412 @@
+/*
+Theme Name: Giba Gorge
+Theme URI: http://brandcandy.co.za
+Author: Cade Foster
+Author URI: http://brandcandy.co.za
+Description: Designed by the fantastic Brand Candy team.
+License: Brandcandy WordPress Theme, Copyright 2018 Richard Burgess
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Brandcandy
+*/
+/*Remove body margin*/
+body{
+	margin: 0px !important;
+}
+
+#language-switcher {
+    background-color: white !important;
+}
+
+/*Stop x overflow*/
+body 
+{
+	overflow-x: hidden;
+}
+
+#activityCara .jet-carousel .elementor-slick-slider .jet-carousel__item {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+	margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+#activityCara .jet-carousel .jet-slick-dots li span {
+    width: 50px;
+}
+
+#activityCara img {
+	width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#activityCara .jet-carousel__item-title {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#activityCara .jet-carousel__item-text {
+	min-height: 350px;
+}
+
+#grazeCara img:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+#grazeCara .jet-carousel .elementor-slick-slider .jet-carousel__item:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#grazeCara .jet-carousel__item-inner:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+#grazeCara .jet-carousel__item-link:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+#eventsSection .elementor-image a {
+	width: 100%;
+}
+#eventsSection img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#eventsSection .elementor-heading-title {
+    min-height: 50px;
+}
+
+#postTerms {
+	min-height: 60px;
+}
+
+/*-----About Us-----*/
+
+#meetTeam img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#notjustMTB img {
+	vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/*-----Events-----*/
+
+#gallerySlider img {
+	width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/*-----Graze-----*/
+
+#grazeSlider .jet-carousel-wrap.jet-equal-cols .jet-carousel__item img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*-----GRAVITY FORMS-----*/
+/*Text fields*/
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-radius: 0px !important;
+	padding: 10px 10px 10px 10px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	font-family: "Mulish", Sans-serif;
+}
+/*Paragraph fields*/
+.gform_wrapper textarea {
+    padding: 10px 10px 10px 10px !important;
+	margin-top: 12px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius: 0px !important;
+}
+/*Field lables*/
+.gform_wrapper label.gfield_label, .gform_wrapper legend.gfield_label {
+    font-weight: 500 !important;
+	color: red;
+	margin-bottom: 0px !important;
+	margin-top: 20px !important;
+}
+/*Radio button and checkbox alignment*/
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+    margin-top: 0px !important;
+}
+body .gform_wrapper ul li.gfield {
+    margin-top: 0px !important;
+}
+/*Submit button alignment*/
+.gform_wrapper .gform_footer {
+margin: 0 0 0 0 !important;
+}
+[type=button], [type=submit], button {
+border: 0px !important;
+}
+
+.gform_wrapper.gravity-theme .gform_footer input {
+    margin-bottom: 8px;
+    width: 200px;
+}
+
+#contactForm input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-radius: 0px !important;
+	padding: 10px 10px 10px 10px !important;
+	border-width: 0px 0px 1px 0px !important;
+	border-style: solid !important;
+	border-color: white;
+	background: #ffffff00;
+}
+
+#contactForm .gform_fields .gfield input::-webkit-input-placeholder {
+  color: white;
+}
+
+#contactForm .gform_wrapper textarea {
+    padding: 10px 10px 10px 10px !important;
+	margin-top: 12px !important;
+	border-width: 0px 0px 1px 0px !important;
+	border-style: solid !important;
+	border-radius: 0px !important;
+	border-color: white;
+	background: #ffffff00;
+	color: white;
+}
+
+#contactForm .gform_wrapper.gravity-theme .gfield textarea.large {
+    height: 185px;
+}
+
+#contactForm .gform_wrapper .gform_body .gform_fields .gfield textarea::-webkit-input-placeholder {
+	color: white;
+	font-family: "Mulish", Sans-serif;
+}
+
+#contactForm .gform_wrapper.gravity-theme input[type=text] {
+    color: white;
+	font-family: "Mulish", Sans-serif;
+}
+
+#contactForm .gform_confirmation_message_1 {
+	color: white;
+}
+
+#enquireForm input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-radius: 0px !important;
+	padding: 10px 10px 10px 10px !important;
+	border-width: 0px 0px 1px 0px !important;
+	border-style: solid !important;
+	background: #ffffff00;
+}
+
+#enquireForm .gform_wrapper textarea {
+    padding: 10px 10px 10px 10px !important;
+	margin-top: 12px !important;
+	border-width: 0px 0px 1px 0px !important;
+	border-style: solid !important;
+	border-radius: 0px !important;
+	background: #ffffff00;
+}
+
+#enquireForm .gform_wrapper.gravity-theme .gfield textarea.large {
+    height: 185px;
+}
+
+#enquireForm .gform_wrapper .gform_body .gform_fields .gfield textarea::-webkit-input-placeholder {
+	font-family: "Mulish", Sans-serif;
+}
+
+#footerForm .gf_simple_horizontal .gform_body {
+    width: 100%;
+}
+
+#footerForm .gform_wrapper.gravity-theme .gform_footer input {
+    margin-bottom: 0px !important;
+    height: 55px;
+}
+
+#footerForm .gform_wrapper.gravity-theme .gform_footer, .gform_wrapper.gravity-theme .gform_page_footer {
+    text-align: center;
+}
+
+/*-----GUTENBERG BLOCKS-----*/
+/*Padding for tables*/
+.wp-block-table.is-style-stripes td, .wp-block-table.is-style-stripes th {
+    padding: 10px;
+}
+/*Margin for divider*/
+.wp-block-separator.is-style-wide {
+    border-bottom-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+#activityCara .jet-carousel .jet-slick-dots li span {
+    	width: 45px;
+}
+	
+}
+
+@media only screen and (max-width: 768px) {
+
+#grazeCara .jet-carousel .jet-slick-dots {
+    justify-content: center;
+    margin: 0px 0px 0px 0px !important;
+}
+	
+}
+
+
+@media only screen and (max-width: 700px) {
+
+#activityCara .jet-carousel .jet-slick-dots li span {
+    	width: 45px;
+}
+	
+.gform_wrapper .gf_simple_horizontal .gform_body .top_label .gfield {
+    	display: inline !important;
+    	padding-right: 1em;
+    	height: auto;
+}
+	
+.gform_wrapper .gf_simple_horizontal .gform_body, .gform_wrapper .gf_simple_horizontal .gform_footer.top_label {
+    display: inline !important;
+}
+
+.gform_wrapper .gf_simple_horizontal {
+    text-align: center;
+}
+	
+}
+
+
+@media only screen and (max-width: 414px) {
+
+#activityCara .jet-carousel .jet-slick-dots li span {
+    	width: 20px;
+}
+	
+}
+
+/* ====================================================
+\/\/\/\/\/\/\ Events Slider /\/\/\/\/\/\/\/\/\/\/\//\/\
+======================================================= */
+a.single-event {
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+a.single-event:hover {
+    transform: scale(0.95)
+}
+.single-event .card-bottom {
+    background: #a4cd39;
+    padding: 2rem;
+}
+.single-event .card-top {
+    background: #a4cd39;
+}
+.single-event .card-top img {
+    object-fit: cover;
+    height: 200px;
+}
+.single-event .theDate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #222329;
+    padding: 10px 25px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.single-event .theDate span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Mulish", Sans-serif;
+}
+.single-event .theDate span:nth-child(1) {
+    font-weight: 300;
+}
+.single-event .theDate span:nth-child(2) {
+    font-weight: 600;
+    font-size: 2em;
+}
+.single-event .card-bottom :is(h3, p, span) {
+    color: #fff;
+    margin: 0;
+}
+.single-event .card-bottom h3 {
+    font-family: "Muli", Sans-serif;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: -60px !important;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    left: -60px !important;
+}
+.swiper-button-prev {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MC45MzciIGhlaWdodD0iMTIwLjk3IiB2aWV3Qm94PSIwIDAgNjAuOTM3IDEyMC45NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2E0Y2QzOTsKICAgICAgICBmaWxsLXJ1bGU6IGV2ZW5vZGQ7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxwYXRoIGlkPSJSZWN0YW5nbGVfNDBfY29weV8zIiBkYXRhLW5hbWU9IlJlY3RhbmdsZSA0MCBjb3B5IDMiIGNsYXNzPSJjbHMtMSIgZD0iTTE2OS4wMywyNzE0Ljk3TDEwOC4xLDI2NTQuNDlsNjAuOTI5LTYwLjQ3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4LjA5NCAtMjU5NCkiLz4KPC9zdmc+") !important;
+    padding: 4rem 2rem;
+    transform: scale(0.5);
+  }
+  
+  .swiper-button-next {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MC43NSIgaGVpZ2h0PSIxMjEuMTkiIHZpZXdCb3g9IjAgMCA2MC43NSAxMjEuMTkiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6ICNhNGNkMzk7CiAgICAgICAgZmlsbC1ydWxlOiBldmVub2RkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xODE3LjUxLDI2MDkuODVsNjAuNzMsNjAuNTktNjAuNzMsNjAuNTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xODE3LjUgLTI2MDkuODQpIj48L3BhdGg+Cjwvc3ZnPg==") !important;
+    padding: 4rem 2rem;
+    transform: scale(0.5); 
+  }
+  .swiper-button-next:after, 
+  .swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+  }
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    top: 40% !important;
+  }
+@media (max-width: 1300px) {
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        right: -10px !important;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        left: -10px !important;
+    }
+}
+@media (max-width: 500px) {
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        right: -50px !important;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        left: -50px !important;
+    }
+    .swiper-button-prev {
+        transform: scale(0.3);
+      }
+    .swiper-button-next {
+        transform: scale(0.3);
+      }
+}
+
