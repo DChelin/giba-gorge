@@ -1,4 +1,6 @@
 <?php
+// Developers: Ash Blignaut, Devlyn Chelin//
+
     $today = date('Ymd');
     $args = array(
         'post_type'     => 'post',
@@ -25,7 +27,8 @@
         // Post defaults
         $eventTitle = $event->post_title;
         $eventFeatureImage = get_the_post_thumbnail( $event, 'large' );
-        $eventShortDescription = wp_trim_words($event->$post_content, 20, '...');
+	//DEVDEV NOTES - AMENDED $post_content to post_content//
+        $eventShortDescription = wp_trim_words($event->post_content,0,'');
         // Extra ACF fields
         $theDay = get_field('day', $event);
         $theMonth = get_field('month', $event);
